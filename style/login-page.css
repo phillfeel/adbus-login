@@ -85,8 +85,6 @@ body {
   padding-bottom: 15px;
 }
 
-
-
 .myform .section-header-wrapper__form {
   width: 100%;
 }
@@ -170,15 +168,16 @@ body {
 .myform input.error {
   border: 1px solid red;
 }
+
 .myform .button-original {
   font-family: "Montserrat",sans-serif;
-  margin-top: 10px;
+   margin-top: 10px;
   width: 100%;
   font-size: 12px;
   line-height: 15px;
   position: relative;
   background: linear-gradient(0deg,#febf00  20%,  #FECC00 80%);
-  border-radius: 22px;
+  border-radius:22px;
   height: 44px;
   outline: none;
   border: none;
@@ -280,7 +279,6 @@ body {
 }
 
 .slider-wrap .mySlides {
-  /* display: none; */
   visibility: hidden;
   height: 102vh;
   width: 100%;
@@ -531,7 +529,6 @@ body {
   }
 }
 
-
 h3{
   font-weight: 700;
   text-transform: uppercase;
@@ -570,7 +567,6 @@ h3{
     display: none;
   }
   
- 
   .myform svg .cls-2{
     fill: #4a4a4a;
   }
@@ -594,13 +590,6 @@ h3{
     border: 1px solid #c7c7d0;
   }
   
-  /* .myform img{
-    display: block;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background: url(../img/logoAdb1.png) no-repeat;
-  } */
-
   .myform img{
     border: none;
   }
@@ -608,4 +597,10 @@ h3{
     color: orange;
   }
   
+}
+
+@supports (-ms-ime-align:auto) {
+  .myform .button-original {
+    border-radius: 0;
+  }
 }
