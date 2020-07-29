@@ -312,9 +312,10 @@ body {
   background-image: url('../img/IMG_0339x2.jpg');
 }
 .slider-wrap .mySlides .img-slider.four {
-  background-image: url('../img/imgpsh_fullsize_animBUS1.1.jpg');
+  background-image: url('../img/trapez-monitor.jpg');
 }
 
+/*остановка - imgpsh_fullsize_anim.jpg .*/
 
 .slider-wrap .mySlides .img-slider.active{
    -webkit-animation: scaling 5s linear;
