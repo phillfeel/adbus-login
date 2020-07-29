@@ -273,9 +273,11 @@ body {
 
 .slider-wrap .slideshow {
   width: 40vw;
+  height: 100%;
   position: relative;
   margin: auto;
   overflow: hidden;
+
 }
 
 .slider-wrap .mySlides {
@@ -304,13 +306,13 @@ body {
   background-image: url('../img/IMG_0360-5.JPG');
 }
 .slider-wrap .mySlides .img-slider.second {
-  background-image: url('../img/IMG_0352ok2.jpg');
+  background-image: url('../img/IMG_0352.jpg');
 }
 .slider-wrap .mySlides .img-slider.third {
-  background-image: url('../img/IMG_0339ok42.jpg');
+  background-image: url('../img/IMG_0339x2.jpg');
 }
 .slider-wrap .mySlides .img-slider.four {
-  background-image: url('../img/imgpsh_fullsize_anim.jpg');
+  background-image: url('../img/imgpsh_fullsize_animBUS1.1.jpg');
 }
 
 
@@ -335,9 +337,18 @@ body {
   left: 0;
   content: "";
   width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.15;
+  height: inherit;
+  background: linear-gradient(to top,#000000  10%,  #ffffff 50%);
+  /* opacity: 0.35; */
+  background: transparent;
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.01) 70%);
+  background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(0, 0, 0, 0.7)), color-stop(70%, rgba(0, 0, 0, 0.01)));
+  background: -webkit-linear-gradient(bottom, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+  background: -o-linear-gradient(bottom,  rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.01) 70%);
+  background: -ms-linear-gradient(bottom,  rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.01) 70%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.01) 70%)
+
+
 }
 
 .slider-wrap .mySlides .lightout {
@@ -346,7 +357,7 @@ body {
   left: 0;
   content: "";
   width: 100%;
-  height: 100%;
+  height: inherit;
   background-color: white;
   opacity: 0;
 }
@@ -377,16 +388,17 @@ body {
 }
 
 .slider-wrap .mySlides .text {
-  padding: 40px 30px 30px 30px;
+  padding: 0px 30px 50px 30px;
   padding-left: 40px;
   position: absolute;
-  top: 0;
-  left: 0;
+  right: 0;
+  bottom:0;
   color: #ffffff;
   font-size: 33px;  
   text-align: right;  
-  top: 18%;
-
+  width: 90%;
+  
+  
 }
 
 .slider-wrap .active,
@@ -547,9 +559,9 @@ h3{
     font-size: 28px;
   }
 }
-@media (max-width: 930px) {
+@media (max-width: 990px) {
   h3{
-    font-size: 20px;
+    font-size: 18px;
   }
   .f-signin .login-message{
     position: absolute;
