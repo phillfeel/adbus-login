@@ -309,6 +309,10 @@ body {
 .slider-wrap .mySlides .img-slider.third {
   background-image: url('../img/IMG_0339ok42.jpg');
 }
+.slider-wrap .mySlides .img-slider.four {
+  background-image: url('../img/Attachment-1.jpeg');
+}
+
 
 .slider-wrap .mySlides .img-slider.active{
    -webkit-animation: scaling 5s linear;
@@ -381,7 +385,7 @@ body {
   color: #ffffff;
   font-size: 33px;  
   text-align: right;  
-  top: 22%;
+  top: 18%;
 
 }
 
