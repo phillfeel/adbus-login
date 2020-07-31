@@ -59,7 +59,7 @@ var allDictionary = {
         rights_txt: "Все права защищены",
         offer_txt: "Договор оферты",
         slide_txt1: "Облачная платформа для управления цифровыми поверхностями",
-        slide_txt2: "Самое доступное решение в области Digital Signage для экранов"
+        slide_txt2: ">СИСТЕМА ИНФОРМИРОВАНИЯ<br>И ОПОВЕЩЕНИЯ НАСЕЛЕНИЯ<br>В ТРАНСПОРТЕ"
     },
     dictEnglish: {
         nameLanguage: "English",
@@ -69,7 +69,7 @@ var allDictionary = {
         rights_txt: "All rights is reserved",
         offer_txt: "Terms and Conditions",
         slide_txt1: "Cloud-based digital surface management platform",
-        slide_txt2: "The most affordable Digital Signage solution for media screens",
+        slide_txt2: "INFORMATION AND WARNING SYSTEM OF THE POPULATION IN TRANSPORT",
     },
     dictSpain: {
         nameLanguage: "España",
@@ -79,7 +79,7 @@ var allDictionary = {
         rights_txt: "Todos los derechos estan reservados",
         offer_txt: "Términos y Condiciones",
         slide_txt1: "Plataforma de gestión de superficie digital basada en la nube",
-        slide_txt2: "La solución de señalización digital más asequible para pantallas",
+        slide_txt2: "SYSTÈME D'INFORMATION ET D'ALERTE DE LA POPULATION EN TRANSPORT",
     },
     dictChinese: {
         nameLanguage:  "中文",
@@ -89,7 +89,7 @@ var allDictionary = {
         rights_txt: "保留所有權利",
         offer_txt: "條款和條件",
         slide_txt1: "基於雲的數字表面管理平台",
-        slide_txt2: "最實惠的屏幕數字標牌解決方案"
+        slide_txt2: "交通運輸人口信息和預警系統"
     },
     dictFrance: {
         nameLanguage: "Français",
@@ -99,7 +99,7 @@ var allDictionary = {
         rights_txt: "Tous les droits sont réservés",
         offer_txt: "Offre de contrat",
         slide_txt1: "Plateforme de gestion de surface numérique basée sur le cloud",
-        slide_txt2: "La solution d'affichage numérique la plus abordable pour les écrans"
+        slide_txt2: "SISTEMA DE INFORMACIÓN Y ADVERTENCIA DE LA POBLACIÓN EN EL TRANSPORTE"
     }
 }
 
