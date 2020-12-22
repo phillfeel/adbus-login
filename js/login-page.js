@@ -19,6 +19,35 @@ function changeColorField() {
 
 changeColorField();
 
+// --- Validation Login Pass --- //
+
+function loginValidation(event){
+    target = event.target;
+    const loginMessage = document.querySelector('.login-message');
+    if (target.value === ""){
+        loginMessage.innerText = "Введите логин";
+        target.classList.add("field-validation-on");
+    } else {
+        loginMessage.innerText = "";
+        target.classList.remove("field-validation-on");
+    }
+};
+document.querySelector(".login-field").addEventListener('input', loginValidation);
+
+
+function passValidation(event){
+    target = event.target;
+    const passMessage = document.querySelector('.password-message');
+    if (target.value === ""){
+        passMessage.innerText = "Введите пароль";
+        target.classList.add("field-validation-on");
+    } else {
+        passMessage.innerText = "";
+        target.classList.remove("field-validation-on");
+    }
+};
+document.querySelector(".pass-field").addEventListener('input', passValidation);
+
 //--- SLIDER ---//
 
 var slideIndex = 0;

@@ -79,6 +79,29 @@ body {
   width: 260px;
 }
 
+
+/* --- Login Validation --- */
+
+.login-message{
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 105%;
+  color: red;
+}
+
+.password-message{
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 105%;
+  color: red;
+}
+
+
+/* --- //Login Validation --- */
+
+
 .myform img{
   width: 100%;
   height: auto;
@@ -109,6 +132,13 @@ body {
   border-radius: 4px;
   padding-left: 15px;
   transition: all 0.2s ease-in;
+}
+
+.myform input.field-validation-on {
+  border: 1px solid #ff0000;
+}
+.myform input.field-validation-on:focus {
+  border: 1px solid #ff0000;
 }
 
 .myform input::-webkit-input-placeholder {
